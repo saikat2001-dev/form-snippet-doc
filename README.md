@@ -1,41 +1,67 @@
-# Website
+# Form Snippet Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+![Form Snippet Logo](https://docs-form-snippet.vercel.app/img/logo.png)
+
+A modern, powerful, and easy-to-use documentation site for the **Form Snippet** React component library. Built with [Docusaurus](https://docusaurus.io/).
+
+## About Form Snippet
+
+Form Snippet is a React component library designed to simplify form creation and validation. It leverages the power of:
+
+- **Material-UI** for beautiful, consistent components.
+- **Tailwind CSS** for flexible and responsive styling.
+- **react-hook-form** for high-performance form state management and validation.
 
 ## Installation
 
-```bash
-yarn
-```
+To set up this documentation site locally:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Git21221/form-snippet.git
+   cd form-snippet
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm start
+   ```
+
+## Documentation Structure
+
+The documentation is organized into clear, easy-to-navigate sections:
+
+### Get Started
+
+- **Overview**: Introduction and advantages of using Form Snippet.
+- **Installation**: How to add the library to your React project.
+- **Usage**: Basic examples to get you up and running quickly.
+- **Support**: Where to find help and report issues.
+
+### Components
+
+- **Form Wrapper**: The core component for managing form state.
+- **Input**: Standard text input fields with built-in validation.
+- **Button**: Customizable action buttons.
+- **Button Dropdown**: Interactive dropdown menus.
 
 ## Local Development
 
-```bash
-yarn start
-```
+- **Run locally**: `npm start`
+- **Build for production**: `npm run build`
+- **Serve build**: `npm run serve`
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Support & Contribution
 
-## Build
+If you find a bug or have a feature request, please open an issue on our [GitHub repository](https://github.com/Git21221/form-snippet/issues).
 
-```bash
-yarn build
-```
+---
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Built with ❤️ by [Saikat Das](https://github.com/Git21221)
