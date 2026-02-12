@@ -1,0 +1,102 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --ifm-color-primary: #4f46e5;
+  --ifm-color-primary-dark: #473fce;
+  --ifm-color-primary-darker: #433bb9;
+  --ifm-color-primary-darkest: #373198;
+  --ifm-color-primary-light: #6058e8;
+  --ifm-color-primary-lighter: #6d66e8;
+  --ifm-color-primary-lightest: #908bed;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Premium feel adjustments */
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  --ifm-transition-fast: 200ms;
+  --ifm-transition-slow: 400ms;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #818cf8;
+  --ifm-color-primary-dark: #747edf;
+  --ifm-color-primary-darker: #6d77d2;
+  --ifm-color-primary-darkest: #5a62ad;
+  --ifm-color-primary-light: #8e98f9;
+  --ifm-color-primary-lighter: #959ffa;
+  --ifm-color-primary-lightest: #aaaffc;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+  
+  /* Deep Slate background for a premium dark mode look */
+  --ifm-background-color: #0f172a;
+  --ifm-navbar-background-color: #1e293b;
+  --ifm-footer-background-color: #1e293b;
+  --ifm-card-background-color: #1e293b;
+  --ifm-toc-border-color: #334155;
+}
+
+/* Base styles for premium look */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(8px);
+}
+
+[data-theme='dark'] .navbar {
+  border-bottom: 1px solid #334155;
+}
+
+.footer {
+  border-top: 1px solid var(--ifm-toc-border-color);
+}
+
+.button--primary {
+  --ifm-button-background-color: var(--ifm-color-primary);
+  --ifm-button-border-color: var(--ifm-color-primary);
+  font-weight: 600;
+  transition: all var(--ifm-transition-fast) ease-in-out;
+}
+
+.button--primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Mobile Sidebar Fixes */
+.navbar-sidebar {
+  height: 100vh;
+  box-shadow: none;
+}
+
+[data-theme='dark'] .navbar-sidebar {
+  background-color: var(--ifm-background-color);
+  border-right: 1px solid var(--ifm-toc-border-color);
+}
+
+.navbar-sidebar__backdrop {
+  background-color: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(4px);
+}
+
+.navbar-sidebar__close {
+  color: var(--ifm-color-primary);
+}
+
+.navbar-sidebar__brand {
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  box-shadow: none !important;
+}
+
+
