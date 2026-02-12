@@ -1,6 +1,6 @@
 # Form Snippet Documentation
 
-![Form Snippet Logo](https://docs-form-snippet.vercel.app/img/logo.png)
+![Form Snippet Logo](https://form-snippet-doc.vercel.app/img/logo.png)
 
 A modern, powerful, and easy-to-use documentation site for the **Form Snippet** React component library. Built with [Docusaurus](https://docusaurus.io/).
 
